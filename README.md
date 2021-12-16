@@ -20,7 +20,7 @@ To write a program to find the square root of a number.
 Program to find the square root for the given number(newton's method) using function.
 Developed by: Monisha T
 RegisterNumber: 21500314 
-```
+
 def sqrt(x):
     for i in range(10):
         x=0.5*(x+b/x)
@@ -28,6 +28,7 @@ def sqrt(x):
 x=int(input())
 b=x
 sqrt(x)
+```
 ## Output:
 ![square root of the two number](output.jpg)
 
